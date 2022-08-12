@@ -17,17 +17,7 @@ public class CarServiceImpl implements CarService {
         this.cardao = cardao;
     }
 
-    public static List<Car> cars;
 
-    {
-        cars = new ArrayList<>();
-        cars.add(new Car("Ford Raptor", "Blue", 2008));
-        cars.add(new Car("Toyota Tundra", "Black", 2010));
-        cars.add(new Car("Dodge Ram", "Red", 2015));
-        cars.add(new Car("Jeep Wrangler", "Green", 2012));
-        cars.add(new Car("Land Rover", "White", 2009));
-
-    }
 
     public List<Car> carsCount(Integer count) {
 
